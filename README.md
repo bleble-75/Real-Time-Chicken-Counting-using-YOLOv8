@@ -1,4 +1,3 @@
-# Real-Time-Chicken-Counting-using-YOLOv8
 # Real-Time Chicken Counting using YOLOv8
 
 This repository contains a real-time computer vision system for automatic chicken counting in poultry farms using YOLOv8. The project aims to support large-scale farm management by providing accurate, efficient, and automated flock monitoring.
