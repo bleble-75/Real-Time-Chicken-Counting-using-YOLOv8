@@ -17,8 +17,19 @@ This repository contains a real-time computer vision system for automatic chicke
 - Optional semi-supervised and active learning loop to reduce annotation workload.
 
 ## Data
+
 Format: YOLO-style dataset with images/ and labels/ folders.
 Each label file contains bounding boxes for chickens in the image.
 Recommended image size: 640x640.
 Tools: Roboflow or CVAT can be used for annotation.
+
 The dataset is not included in this repository. Please prepare your own dataset and update data/chicken.yaml accordingly.
+
+Example data/chicken.yaml:
+
+path: ./data/chicken
+train: images/train
+val: images/val
+
+nc: 1
+names: ["chicken"]
